@@ -1,0 +1,29 @@
+{
+    "name": "uco/twig-extensions-bundle",
+    "type": "symfony-bundle",
+    "description": "Twig Extensions",
+    "keywords": ["Twig", "Symfony"],
+    "homepage": "https://github.com/sgomez",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Gó",
+            "homepage": "http://twitter.com/sgomez"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.1.*",
+        "twig/twig": ">=1.8.0"
+    },
+    "autoload": {
+        "psr-0": { "Uco\\TwigExtensionsBundle": "" }
+    },
+    "target-dir": "Uco/TwigExtensionsBundle",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
